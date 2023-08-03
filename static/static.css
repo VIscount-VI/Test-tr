@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.continer {
+    width: 680px;
+    height: 40vh;
+    margin-top: 10%;
+    margin-left: 26%;
+    border-radius: 10px;
+    border: solid 2px rgba(77, 117, 228, 0.075);
+    box-shadow: 0px 2px 4px 4px rgba(30, 30, 31, 0.103);
+    background-color: rgba(126, 125, 125, 0.048);
+}
+input {
+    width: 80%;
+    height: 6vh;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.062);
+    outline: none;
+
+}
+
+.first {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+.last {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 28%;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 20%;
+}
