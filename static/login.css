@@ -1,0 +1,36 @@
+* {
+    font-size: 16px;
+    font-family: monospace;
+    font-size: 400;
+}
+.form {
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 4px solid hsla(0, 0%, 90%, 0.205);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+input {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: monospace;
+    outline: none;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    margin: 1%;
+    color:#fff;
+    background-color: rgba(58, 99, 161, 0.212);
+    padding: 1%;
+    width: 180px;
+   
+}
+label {
+    display: none;
+}

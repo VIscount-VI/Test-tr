@@ -1,0 +1,73 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+button {
+    margin-left: 1%;
+}
+.dropdown-menu {
+    margin-left: 88%;
+}
+.user {
+    max-width: 50%;
+    height: 28vh;
+    margin: auto;
+    border: solid 1px rgba(43, 42, 42, 0.048);
+    border-radius: 10px;
+    margin-top: 2%;
+    box-shadow: 1px 1px 1px 1px rgba(43, 42, 42, 0.048);
+}
+.user h1 {
+    font-size: 26px;
+    max-width: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+    color: rgba(0, 0, 0, 0.541);
+}
+.list {
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 10px;
+    width: 40%;
+    height: 20vh;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.096);
+}
+.article {
+    border-radius: 8%;
+    text-align:center;
+    text-decoration: none;
+    display: inline;
+    width: 100px;
+    height: 35px;
+    margin-left: 45%;
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    font-family: monospace ;
+    font-weight: 400;
+    background-color: rgba(75, 131, 216, 0.712);
+    outline: none;
+  }
+.article:hover {
+
+    color: rgb(252, 252, 252);
+  
+}  
+.text {
+    margin-left:20% ;
+    font-weight: 400;
+    color: rgb(7, 78, 136);
+    font-family: monospace;
+    font-size: 24px;
+  }
+.box_a {
+    width: 40%;
+    float: right;
+    margin-left: 4%;
+}
+.user h1 {
+    display: flex;
+    font-size: 20px;
+
+}
