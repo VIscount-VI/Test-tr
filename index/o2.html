@@ -14,11 +14,11 @@
         <input name="text" value="" type="text"><button type="submit">Translation</button>
     </form>
     <br>
-    <a class="o2" href=" {% url 'index_2' %}">eng-uzb</a>
+    <a class="o2" href=" {% url 'index' %}">uzb-eng</a>
     {% if data %}
     {% for alldata in data %}
-    <p class="first" >{{ alldata.first_name }}</p>
     <p class="last" >{{ alldata.last_name }}</p>
+    <p class="first" >{{ alldata.first_name }}</p>
     {% endfor %}
     {% endif %}
     <form action="" method="post">

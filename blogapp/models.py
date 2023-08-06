@@ -7,5 +7,5 @@ from django.contrib.auth.models import AbstractUser
 
 
 class Name(models.Model):
-    first_name = models.CharField(max_length=80)
+    first_name = models.CharField(max_length=80,)
     last_name = models.CharField(max_length=80)
